@@ -11,7 +11,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="I2f-59-3kW">
-                    <rect key="frame" x="101" y="122" width="278" height="236"/>
+                    <rect key="frame" x="139" y="154" width="203" height="173"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.93725490199999995" green="0.25098039220000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,6 +26,6 @@
         </view>
     </objects>
     <resources>
-        <image name="logo" width="278" height="236"/>
+        <image name="logo" width="203" height="173"/>
     </resources>
 </document>
