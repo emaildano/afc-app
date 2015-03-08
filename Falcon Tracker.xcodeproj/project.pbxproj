@@ -32,14 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ADE450E81A94DB2600E3789D /* SwiftEstimoteBeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEstimoteBeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE450E81A94DB2600E3789D /* Falcon Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falcon Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE450EC1A94DB2600E3789D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE450ED1A94DB2600E3789D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE450EF1A94DB2600E3789D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADE450F21A94DB2600E3789D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADE450F41A94DB2600E3789D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ADE450F71A94DB2600E3789D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		ADE450FD1A94DB2600E3789D /* SwiftEstimoteBeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEstimoteBeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE450FD1A94DB2600E3789D /* Falcon TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falcon TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE451021A94DB2600E3789D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE451031A94DB2700E3789D /* SwiftEstimoteBeaconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEstimoteBeaconsTests.swift; sourceTree = "<group>"; };
 		ADE4510D1A94DBA700E3789D /* libPods-EstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-EstimoteSDK.a"; path = "Pods/build/Debug-iphoneos/libPods-EstimoteSDK.a"; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		ADE450DF1A94DB2600E3789D = {
 			isa = PBXGroup;
 			children = (
-				ADE450EA1A94DB2600E3789D /* SwiftEstimoteBeacons */,
-				ADE451001A94DB2600E3789D /* SwiftEstimoteBeaconsTests */,
+				ADE450EA1A94DB2600E3789D /* FalconTracker */,
+				ADE451001A94DB2600E3789D /* FalconTrackerTests */,
 				ADE450E91A94DB2600E3789D /* Products */,
 				F498D3D021904D86E3D14B97 /* Pods */,
 				0EA1B698C48009A1E96CDD06 /* Frameworks */,
@@ -104,13 +104,13 @@
 		ADE450E91A94DB2600E3789D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADE450E81A94DB2600E3789D /* SwiftEstimoteBeacons.app */,
-				ADE450FD1A94DB2600E3789D /* SwiftEstimoteBeaconsTests.xctest */,
+				ADE450E81A94DB2600E3789D /* Falcon Tracker.app */,
+				ADE450FD1A94DB2600E3789D /* Falcon TrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADE450EA1A94DB2600E3789D /* SwiftEstimoteBeacons */ = {
+		ADE450EA1A94DB2600E3789D /* FalconTracker */ = {
 			isa = PBXGroup;
 			children = (
 				ADE450ED1A94DB2600E3789D /* AppDelegate.swift */,
@@ -121,6 +121,7 @@
 				ADE450F61A94DB2600E3789D /* LaunchScreen.xib */,
 				ADE450EB1A94DB2600E3789D /* Supporting Files */,
 			);
+			name = FalconTracker;
 			path = SwiftEstimoteBeacons;
 			sourceTree = "<group>";
 		};
@@ -132,12 +133,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ADE451001A94DB2600E3789D /* SwiftEstimoteBeaconsTests */ = {
+		ADE451001A94DB2600E3789D /* FalconTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				ADE451031A94DB2700E3789D /* SwiftEstimoteBeaconsTests.swift */,
 				ADE451011A94DB2600E3789D /* Supporting Files */,
 			);
+			name = FalconTrackerTests;
 			path = SwiftEstimoteBeaconsTests;
 			sourceTree = "<group>";
 		};
@@ -161,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADE450E71A94DB2600E3789D /* SwiftEstimoteBeacons */ = {
+		ADE450E71A94DB2600E3789D /* Falcon Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADE451071A94DB2700E3789D /* Build configuration list for PBXNativeTarget "SwiftEstimoteBeacons" */;
+			buildConfigurationList = ADE451071A94DB2700E3789D /* Build configuration list for PBXNativeTarget "Falcon Tracker" */;
 			buildPhases = (
 				2F051DD846E1188C46B8B5B8 /* Check Pods Manifest.lock */,
 				ADE450E41A94DB2600E3789D /* Sources */,
@@ -175,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftEstimoteBeacons;
+			name = "Falcon Tracker";
 			productName = SwiftEstimoteBeacons;
-			productReference = ADE450E81A94DB2600E3789D /* SwiftEstimoteBeacons.app */;
+			productReference = ADE450E81A94DB2600E3789D /* Falcon Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADE450FC1A94DB2600E3789D /* SwiftEstimoteBeaconsTests */ = {
+		ADE450FC1A94DB2600E3789D /* Falcon TrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADE4510A1A94DB2700E3789D /* Build configuration list for PBXNativeTarget "SwiftEstimoteBeaconsTests" */;
+			buildConfigurationList = ADE4510A1A94DB2700E3789D /* Build configuration list for PBXNativeTarget "Falcon TrackerTests" */;
 			buildPhases = (
 				ADE450F91A94DB2600E3789D /* Sources */,
 				ADE450FA1A94DB2600E3789D /* Frameworks */,
@@ -193,9 +195,9 @@
 			dependencies = (
 				ADE450FF1A94DB2600E3789D /* PBXTargetDependency */,
 			);
-			name = SwiftEstimoteBeaconsTests;
+			name = "Falcon TrackerTests";
 			productName = SwiftEstimoteBeaconsTests;
-			productReference = ADE450FD1A94DB2600E3789D /* SwiftEstimoteBeaconsTests.xctest */;
+			productReference = ADE450FD1A94DB2600E3789D /* Falcon TrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADE450E31A94DB2600E3789D /* Build configuration list for PBXProject "SwiftEstimoteBeacons" */;
+			buildConfigurationList = ADE450E31A94DB2600E3789D /* Build configuration list for PBXProject "Falcon Tracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADE450E71A94DB2600E3789D /* SwiftEstimoteBeacons */,
-				ADE450FC1A94DB2600E3789D /* SwiftEstimoteBeaconsTests */,
+				ADE450E71A94DB2600E3789D /* Falcon Tracker */,
+				ADE450FC1A94DB2600E3789D /* Falcon TrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +313,7 @@
 /* Begin PBXTargetDependency section */
 		ADE450FF1A94DB2600E3789D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ADE450E71A94DB2600E3789D /* SwiftEstimoteBeacons */;
+			target = ADE450E71A94DB2600E3789D /* Falcon Tracker */;
 			targetProxy = ADE450FE1A94DB2600E3789D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +423,7 @@
 				INFOPLIST_FILE = SwiftEstimoteBeacons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Falcon Tracker";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftEstimoteBeacons/Estimote-Bridging-Header.h";
 			};
 			name = Debug;
@@ -434,7 +436,7 @@
 				INFOPLIST_FILE = SwiftEstimoteBeacons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Falcon Tracker";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftEstimoteBeacons/Estimote-Bridging-Header.h";
 			};
 			name = Release;
@@ -453,8 +455,8 @@
 				);
 				INFOPLIST_FILE = SwiftEstimoteBeaconsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEstimoteBeacons.app/SwiftEstimoteBeacons";
+				PRODUCT_NAME = "Falcon TrackerTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falcon Tracker.app/Falcon Tracker";
 			};
 			name = Debug;
 		};
@@ -468,15 +470,15 @@
 				);
 				INFOPLIST_FILE = SwiftEstimoteBeaconsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEstimoteBeacons.app/SwiftEstimoteBeacons";
+				PRODUCT_NAME = "Falcon TrackerTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falcon Tracker.app/Falcon Tracker";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADE450E31A94DB2600E3789D /* Build configuration list for PBXProject "SwiftEstimoteBeacons" */ = {
+		ADE450E31A94DB2600E3789D /* Build configuration list for PBXProject "Falcon Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADE451051A94DB2700E3789D /* Debug */,
@@ -485,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADE451071A94DB2700E3789D /* Build configuration list for PBXNativeTarget "SwiftEstimoteBeacons" */ = {
+		ADE451071A94DB2700E3789D /* Build configuration list for PBXNativeTarget "Falcon Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADE451081A94DB2700E3789D /* Debug */,
@@ -494,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADE4510A1A94DB2700E3789D /* Build configuration list for PBXNativeTarget "SwiftEstimoteBeaconsTests" */ = {
+		ADE4510A1A94DB2700E3789D /* Build configuration list for PBXNativeTarget "Falcon TrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADE4510B1A94DB2700E3789D /* Debug */,
