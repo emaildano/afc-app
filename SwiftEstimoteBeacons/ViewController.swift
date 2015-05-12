@@ -23,7 +23,7 @@ class ViewController: UIViewController, ESTBeaconManagerDelegate {
         beaconManager.delegate = self;
         
         //create the beacon region
-        var beaconRegion : ESTBeaconRegion = ESTBeaconRegion(proximityUUID: NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D"), major: 7128, minor: 30415, identifier: "regionName")
+        var beaconRegion : ESTBeaconRegion = ESTBeaconRegion(proximityUUID: NSUUID(UUIDString: "8492E75F-4FD6-469D-B132-043FE94921D8"), major: 9443, minor: 12397, identifier: "regionName")
         
         //Opt in to be notified upon entering and exiting region
         beaconRegion.notifyOnEntry = true
